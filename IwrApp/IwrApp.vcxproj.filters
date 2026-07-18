@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Header Files\common">
+      <UniqueIdentifier>{67375197-02b6-4225-b8ae-5e55f86875c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\WIN32INC">
+      <UniqueIdentifier>{2f4bb4c8-622b-4af9-b27f-f3ab531b1b5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common">
+      <UniqueIdentifier>{f6fcca28-b986-43c2-9e9a-bc392f18eed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32SRC">
+      <UniqueIdentifier>{26b8700e-6da4-4ac6-bb60-1c8b084309e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\JQLibrary">
+      <UniqueIdentifier>{9d16e35a-eacd-40a4-b33f-74d62694ab51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\JQLibrary">
+      <UniqueIdentifier>{029e78ec-61d4-425a-93a9-73a27d6cd67e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="IwrApp.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="IwrApp.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="IwrApp.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClCompile Include="IwrApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\src\appExt.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\src\bufPool.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\src\JsonKit.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\src\WorkLog.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\src\WorkTrd.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\src\WIN32SRC\ClientData.cpp">
+      <Filter>Source Files\WIN32SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\src\WIN32SRC\ClientQueue.cpp">
+      <Filter>Source Files\WIN32SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\src\WIN32SRC\CommManager.cpp">
+      <Filter>Source Files\WIN32SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\src\WIN32SRC\ctkvset.cpp">
+      <Filter>Source Files\WIN32SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\src\WIN32SRC\CTUTIL.CPP">
+      <Filter>Source Files\WIN32SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\src\WIN32SRC\KernelObject.cpp">
+      <Filter>Source Files\WIN32SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\src\WIN32SRC\Timer.cpp">
+      <Filter>Source Files\WIN32SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\src\WIN32SRC\TLOG.CPP">
+      <Filter>Source Files\WIN32SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\src\WIN32SRC\Udp.cpp">
+      <Filter>Source Files\WIN32SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\src\WIN32SRC\UDPServer.cpp">
+      <Filter>Source Files\WIN32SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\src\WIN32SRC\WinCTModule.cpp">
+      <Filter>Source Files\WIN32SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\src\WIN32SRC\TCB.CPP">
+      <Filter>Source Files\WIN32SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\src\WIN32SRC\TCPClient.cpp">
+      <Filter>Source Files\WIN32SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="appCfg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="appCmm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="appHtc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\src\JQLibrary\jqhttpserver.cpp">
+      <Filter>Source Files\JQLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\src\JQLibrary\jqnet.cpp">
+      <Filter>Source Files\JQLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="appMySql.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\common\inc\appExt.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\bufPool.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\cmmdef.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\iostream.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\JsonKit.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\WIN32INC\ClientData.h">
+      <Filter>Header Files\WIN32INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\WIN32INC\ClientQueue.h">
+      <Filter>Header Files\WIN32INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\WIN32INC\Collection.h">
+      <Filter>Header Files\WIN32INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\WIN32INC\Collection_old.h">
+      <Filter>Header Files\WIN32INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\WIN32INC\CommManager.h">
+      <Filter>Header Files\WIN32INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\WIN32INC\CTGOR.H">
+      <Filter>Header Files\WIN32INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\WIN32INC\CTKVSET.H">
+      <Filter>Header Files\WIN32INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\WIN32INC\CTMSG.H">
+      <Filter>Header Files\WIN32INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\WIN32INC\CTPACKET.H">
+      <Filter>Header Files\WIN32INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\WIN32INC\CTSTATUS.H">
+      <Filter>Header Files\WIN32INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\WIN32INC\CTSYMBOL.H">
+      <Filter>Header Files\WIN32INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\WIN32INC\CTTYPES.H">
+      <Filter>Header Files\WIN32INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\WIN32INC\CTUTIL.H">
+      <Filter>Header Files\WIN32INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\WIN32INC\DBAMSG.H">
+      <Filter>Header Files\WIN32INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\WIN32INC\dbasymbol.h">
+      <Filter>Header Files\WIN32INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\WIN32INC\Gwpacket.h">
+      <Filter>Header Files\WIN32INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\WIN32INC\KernelObject.h">
+      <Filter>Header Files\WIN32INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\WIN32INC\List.h">
+      <Filter>Header Files\WIN32INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\WIN32INC\mainmsg.h">
+      <Filter>Header Files\WIN32INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\WIN32INC\mainsymbol.h">
+      <Filter>Header Files\WIN32INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\WIN32INC\PIG.H">
+      <Filter>Header Files\WIN32INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\WIN32INC\PSPMSG.H">
+      <Filter>Header Files\WIN32INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\WIN32INC\pspsymbol.h">
+      <Filter>Header Files\WIN32INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\WIN32INC\PUBLIC.H">
+      <Filter>Header Files\WIN32INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\WIN32INC\Queue.h">
+      <Filter>Header Files\WIN32INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\WIN32INC\servicemsg.h">
+      <Filter>Header Files\WIN32INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\WIN32INC\servicesymbol.h">
+      <Filter>Header Files\WIN32INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\WIN32INC\SS7EVT.H">
+      <Filter>Header Files\WIN32INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\WIN32INC\SS7MSG.H">
+      <Filter>Header Files\WIN32INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\WIN32INC\TCB.H">
+      <Filter>Header Files\WIN32INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\WIN32INC\TCPClient.h">
+      <Filter>Header Files\WIN32INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\WIN32INC\Timer.h">
+      <Filter>Header Files\WIN32INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\WIN32INC\TLOG.H">
+      <Filter>Header Files\WIN32INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\WIN32INC\Udp.h">
+      <Filter>Header Files\WIN32INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\WIN32INC\UDPServer.h">
+      <Filter>Header Files\WIN32INC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\WIN32INC\WinCTModule.h">
+      <Filter>Header Files\WIN32INC</Filter>
+    </ClInclude>
+    <ClInclude Include="appCfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="appCmm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\JQLibrary\jqnet.h">
+      <Filter>Header Files\JQLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="tapDial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="..\common\inc\WorkLog.h">
+      <Filter>Header Files\common</Filter>
+    </QtMoc>
+    <QtMoc Include="..\common\inc\WorkTrd.h">
+      <Filter>Header Files\common</Filter>
+    </QtMoc>
+    <QtMoc Include="appHtc.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\common\inc\JQLibrary\jqhttpserver.h">
+      <Filter>Header Files\JQLibrary</Filter>
+    </QtMoc>
+    <QtMoc Include="appMySql.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>

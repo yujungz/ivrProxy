@@ -1,0 +1,20 @@
+# ===== User-specified exclusions =====
+coding/
+doc/
+IwrApp/x64/
+wshProxy/x64/
+
+# common/ old SDK snapshots (dated / _ok duplicates of WIN32INC & WIN32SRC)
+common/inc/WIN32INC_ok/
+common/inc/WIN32INC20230730/
+common/inc/WIN32INC20230824/
+common/src/WIN32SRC_ok/
+common/src/WIN32SRC20230730/
+common/src/WIN32SRC20230824/
+
+# ===== IDE / build artifacts =====
+# Visual Studio IDE state (IntelliSense DB, etc.) — large & machine-specific
+.vs/
+
+# VS user-specific project options (local debug paths, etc.)
+*.vcxproj.user
